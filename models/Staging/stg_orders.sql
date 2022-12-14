@@ -8,10 +8,12 @@ o.ORDERCOSTPRICE,
 o.ORDERSELLINGPRICE,
 o.ORDERSELLINGPRICE - o.ORDERCOSTPRICE as orderprofit,
 --from raw customer
+c.customerid,
 c.customername,
 c.SEGEMENT,
 c.country,
 --from raw product
+p.productid,
 p.category,
 p.productname,
 p.SUBCATGORY
